@@ -1085,6 +1085,10 @@ ol {
     text-align: center;
   }
 
+  .header {
+    overflow-x: hidden;
+  }
+
   .header-title-wrapper {
     text-align: center;
   }

@@ -204,7 +204,7 @@ ol {
 .main-header-btn {
   position: absolute;
   left: 50%;
-  bottom: 14%;
+  bottom: 20%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);

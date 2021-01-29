@@ -201,15 +201,6 @@ ol {
   margin-right: 24px;
 }
 
-.main-header-btn {
-  position: absolute;
-  left: 50%;
-  bottom: 20%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
 .page-nav {
   position: absolute;
   left: 0;
@@ -1117,6 +1108,15 @@ ol {
 
   .header-links {
     display: none;
+  }
+
+  .main-header-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 14%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 
   .page-nav--flex {

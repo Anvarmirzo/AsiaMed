@@ -201,6 +201,15 @@ ol {
   margin-right: 24px;
 }
 
+.main-header-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 14%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 .page-nav {
   position: absolute;
   left: 0;
@@ -307,7 +316,7 @@ ol {
   display: none;
   position: absolute;
   right: 0px;
-  top: 121px;
+  top: 100px;
   width: 44px;
   height: 40px;
   cursor: pointer;
@@ -518,7 +527,7 @@ ol {
 }
 
 .why {
-  padding-bottom: 146px;
+  padding-bottom: 130px;
 }
 
 .why-title h2 {
@@ -635,8 +644,8 @@ ol {
 }
 
 .consult {
-  padding-top: 131px;
-  padding-bottom: 150px;
+  padding-top: 90px;
+  padding-bottom: 100px;
 }
 
 .consult--flex {
@@ -1209,8 +1218,16 @@ ol {
     flex-direction: column-reverse;
   }
 
+  .about-us-info {
+    text-align: center;
+  }
+
   .about-us-img {
     margin-bottom: 30px;
+  }
+
+  .about-services-card {
+    text-align: center;
   }
 
   .why-title h2 {
@@ -1239,6 +1256,10 @@ ol {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .consult-schedule {
+    text-align: center;
   }
 
   .appointment {
@@ -1289,10 +1310,12 @@ ol {
 
   .about-page-content {
     margin-top: 120px;
+    text-align: center;
   }
 
   .services-page-content {
     margin-top: 120px;
+    text-align: center;
   }
 }
 
@@ -1305,8 +1328,20 @@ ol {
     font-size: 16px;
   }
 
+  .about-us--flex {
+    margin-bottom: 90px;
+  }
+
+  .about-services--flex {
+    margin-bottom: 90px;
+  }
+
   .about-services-card__title {
     min-height: auto;
+  }
+
+  .why {
+    padding-bottom: 90px;
   }
 
   .why--flex {
@@ -1323,8 +1358,21 @@ ol {
     justify-content: center;
   }
 
+  .specialists--flex {
+    margin-bottom: 45px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .consult {
+    margin-bottom: 90px;
+  }
+
   .contact-page-map {
     height: 400px;
+    margin-top: 32px;
+    margin-bottom: 90px;
   }
 
   .services-page-card-img img {
@@ -1346,14 +1394,6 @@ ol {
     font-size: 32px;
   }
 
-  .header-subtitle-wrapper p {
-    font-size: 12px;
-  }
-
-  .about-us-info p {
-    font-size: 12px;
-  }
-
   .about-services-card h3 {
     font-size: 24px;
   }
@@ -1362,10 +1402,12 @@ ol {
     display: none;
   }
 
-  .specialists--flex {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  .why-list-item p {
+    font-size: 16px;
+  }
+
+  .specialists-info p {
+    font-size: 16px;
   }
 
   .consult-schedule h3 {
@@ -1381,7 +1423,7 @@ ol {
   }
 
   .appointment p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .appointment a {
@@ -1395,9 +1437,9 @@ ol {
 
   .appointment input[type="text"],
   .appointment input[type="phone"] {
-    font-size: 12px;
     text-align: center;
     margin-bottom: 15px;
+    font-size: 16px;
   }
 
   .contact-page-info-card h4 {
@@ -1406,6 +1448,14 @@ ol {
 
   .contact-page-map {
     height: 300px;
+  }
+
+  .about-page-content p {
+    font-size: 16px;
+  }
+
+  .services-page-card-text p {
+    font-size: 16px;
   }
 }
 
